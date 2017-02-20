@@ -46,6 +46,8 @@ public class GUI extends Main {
 		menuFile.add(mClose);
 		
 		//menu overHours
+		JMenuItem mOverHours = new JMenuItem("Moje nadgodziny");
+		menuOverHours.add(mOverHours);
 		JMenuItem mAdd = new JMenuItem("Dodaj");
 		menuOverHours.add(mAdd);
 		JMenuItem mTake = new JMenuItem("Odbierz");
@@ -53,5 +55,7 @@ public class GUI extends Main {
 		
 		
 	}
+	
+	
 
 }
